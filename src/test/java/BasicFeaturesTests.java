@@ -9,8 +9,10 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 
 public class BasicFeaturesTests {
+
     Expedia expediaPage = new Expedia();
-    //@Test
+
+    @Test
     public void testStatuscode(){
         given().get(expediaPage.EXPEDIA_HOME_PAGE_URL).
         then().statusCode(200).contentType(ContentType.HTML);
@@ -33,6 +35,4 @@ public class BasicFeaturesTests {
         //System.out.println("Href: "+response.path("url"));
        // System.out.println("Status code: "+response.statusCode());
     }
-
-
 }
