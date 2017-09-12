@@ -31,7 +31,8 @@ public class BasicFeaturesTests {
     public void testTopVacationRentals(){
         given()
                 .get(expediaPage.EXPEDIA_VACATION_RENTALS_URL).
-                then().statusCode(200).log().all();
+                then().statusCode(200).
+                log().all();
         //Response response = when().get(expediaPage.EXPEDIA_VACATION_RENTALS_URL).
                 //then().extract().response();
 
