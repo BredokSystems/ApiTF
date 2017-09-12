@@ -85,5 +85,6 @@
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.7.Final" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.8" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.5" level="project" />
   </component>
 </module>
